@@ -97,7 +97,9 @@
 		"setuid",
 		"cron",
 		"pincode",
-		"passwd"
+		"passwd",
+		"Shellcode",
+		"init"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
