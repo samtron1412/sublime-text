@@ -99,7 +99,13 @@
 		"pincode",
 		"passwd",
 		"Shellcode",
-		"init"
+		"init",
+		"regedit",
+		"md",
+		"Natas",
+		"natas",
+		"overthewire",
+		"http"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
