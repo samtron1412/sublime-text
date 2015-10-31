@@ -1,0 +1,5 @@
+{
+    "git_status_disable_vintageous": false,
+    "git_commit_verbose": true,
+    "git_commit_pedantic": true,
+}
