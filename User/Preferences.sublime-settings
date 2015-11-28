@@ -118,7 +118,13 @@
 		"Whistleblowers",
 		"Militaries",
 		"surveilling",
-		"whistleblowers"
+		"whistleblowers",
+		"Failover",
+		"Failback",
+		"failover",
+		"Esolang",
+		"esolang",
+		"children's"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
