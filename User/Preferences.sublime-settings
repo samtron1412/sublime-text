@@ -124,7 +124,12 @@
 		"failover",
 		"Esolang",
 		"esolang",
-		"children's"
+		"children's",
+		"cryptographic",
+		"drawee",
+		"transactional",
+		"withholdings",
+		"versa"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
