@@ -124,7 +124,23 @@
 		"failover",
 		"Esolang",
 		"esolang",
-		"children's"
+		"children's",
+		"urxvt",
+		"workspace",
+		"irssi",
+		"Codecs",
+		"Pastebin",
+		"w3m",
+		"ttf",
+		"dejavu",
+		"mpv",
+		"mplayer",
+		"vifm",
+		"neovim",
+		"gvim",
+		"bootloader",
+		"Transcendentals",
+		"Multivariable"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
@@ -134,11 +150,12 @@
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
+	"font_face": "Source Code Pro",
 	"font_size": 11,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
