@@ -145,7 +145,13 @@
 		"drawee",
 		"transactional",
 		"withholdings",
-		"versa"
+		"versa",
+		"runtime",
+		"scalability",
+		"projective",
+		"equalities",
+		"Asymptote",
+		"asymptote"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
