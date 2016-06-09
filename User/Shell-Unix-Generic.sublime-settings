@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		".zshrc",
+		".inputrc",
+		".env",
+		".zprofile"
+	]
+}
