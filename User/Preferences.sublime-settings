@@ -228,6 +228,5 @@
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true,
-	"translate_tabs_to_spaces": true
+	"vintage_start_in_command_mode": true
 }
