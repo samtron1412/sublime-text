@@ -1,36 +1,4 @@
 {
-	"bold_folder_labels": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
-	"default_line_ending": "unix",
-	"dictionary": "Packages/User/English(US)_custom/English(American).dic",
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"font_face": "Source Code Pro",
-	"font_size": 11,
-	"ignored_packages":
-	[
-		"Markdown",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"indent_to_bracket": true,
-	"line_padding_bottom": 4,
-	"line_padding_top": 4,
-	"scroll_past_end": true,
-	"show_encoding": true,
-	"show_line_endings": true,
-	"soda_classic_tabs": true,
-	"spell_check": true,
-	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
-	"trim_trailing_white_space_on_save": true,
-	"vintage_start_in_command_mode": true,
 	"added_words":
 	[
 		"virtualization",
@@ -228,5 +196,37 @@
 		"parallelization",
 		"snapshotting",
 		"automount"
-	]
+	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"default_line_ending": "unix",
+	"dictionary": "Packages/User/English(US)_custom/English(American).dic",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_face": "Source Code Pro",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
+	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"soda_classic_tabs": true,
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
 }
