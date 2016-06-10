@@ -1,3 +1,5 @@
+*.cache*
+*.pyc
 Package Control.ca-list
 Package Control.ca-bundle
 Package Control.ca-certs/
