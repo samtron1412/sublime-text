@@ -229,6 +229,7 @@
 		"stateful",
 		"modularity"
 	],
+	"highlight_modified_tabs": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
