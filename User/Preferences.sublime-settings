@@ -231,7 +231,15 @@
 		"Cybersecurity",
 		"Cyber",
 		"badlock",
-		"heartbleed"
+		"heartbleed",
+		"Combinatorial",
+		"wildcards",
+		"filenames",
+		"backtick",
+		"viewport",
+		"workspaces",
+		"filepath",
+		"authenticator"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
