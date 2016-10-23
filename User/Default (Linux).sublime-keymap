@@ -1,4 +1,5 @@
 [
+	{ "keys": ["ctrl+space"], "command": "toggle_auto_wrap" },
 	{ "keys": ["ctrl+shift+u"], "command": "soft_redo" },
 	{ "keys": ["ctrl+u"], "command": "soft_undo" },
 	{ "keys": ["ctrl+alt+k"], "command": "select_lines", "args": {"forward": false} },
