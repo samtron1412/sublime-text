@@ -10,6 +10,7 @@
 		"All Autocomplete",
 		"Anaconda",
 		"Autoprefixer",
+		"AutoWrap",
 		"Babel",
 		"BoGo",
 		"BracketHighlighter",
@@ -61,6 +62,7 @@
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"Vintageous",
-		"WordCount"
+		"WordCount",
+		"Wrap Plus"
 	]
 }
