@@ -241,7 +241,6 @@
 		"filepath",
 		"authenticator"
 	],
-	"auto_wrap": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
