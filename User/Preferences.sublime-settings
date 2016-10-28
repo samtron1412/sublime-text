@@ -241,6 +241,7 @@
 		"filepath",
 		"authenticator"
 	],
+	"auto_wrap": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
@@ -300,8 +301,13 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
+	"line_numbers": false,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
+	"rulers":
+	[
+		72
+	],
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
@@ -311,8 +317,5 @@
 	"theme": "Soda Dark.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
-	"word_wrap": false,
-	"rulers": [72],
-	"line_numbers": false,
-	"auto_wrap": true
+	"word_wrap": false
 }
