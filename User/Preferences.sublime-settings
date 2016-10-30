@@ -244,7 +244,7 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
 	"default_line_ending": "unix",
 	"dictionary": "Packages/User/English(US)_custom/English(American).dic",
 	"draw_white_space": "all",
