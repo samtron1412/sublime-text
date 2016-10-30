@@ -241,6 +241,7 @@
 		"filepath",
 		"authenticator"
 	],
+	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
@@ -312,11 +313,10 @@
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
 	"spell_check": true,
-	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true,
-	"auto_complete_commit_on_tab": true,
 	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
 	"vintage_start_in_command_mode": true,
 	"word_wrap": false
 }
