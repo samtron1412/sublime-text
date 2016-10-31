@@ -1,0 +1,9 @@
+{
+    "os_specific_alias": {
+        "tmp": {
+            "windows": "D:\\WORKSPACE\\tmp\\",
+            "linux": "~/tmp/"
+        }
+    },
+    "auto_refresh_sidebar": true,
+}
