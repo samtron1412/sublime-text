@@ -1,4 +1,5 @@
 [
+	{ "keys": ["ctrl+k", "ctrl+z"], "command": "zoom_pane", "args": {"fraction": 0.7} },
 	{ "keys": ["alt+s"], "command": "toggle_status_bar" },
 	{ "keys": ["alt+space"], "command": "toggle_auto_wrap" },
 	{ "keys": ["ctrl+shift+u"], "command": "soft_redo" },
@@ -20,35 +21,6 @@
 			{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
 		]
 	},
-	{
-		"keys": ["alt+shift+h"],
-		"command": "set_layout",
-		"args":
-	{
-		"cols": [0.0, 0.33, 1.0],
-		"rows": [0.0, 1.0],
-		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-	}
-	},
-	{
-		"keys": ["alt+shift+l"],
-		"command": "set_layout",
-		"args":
-	{
-		"cols": [0.0, 0.66, 1.0],
-		"rows": [0.0, 1.0],
-		"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-	}
-	},
-	// {
-	// 	"keys" : ["j", "j"],
-	// 	"command": "exit_insert_mode",
-	// 	"context":
-	// 	[
-	// 		{ "key" : "setting.command_mode", "operand": false },
-	// 		{ "key" : "setting.is_widget", "operand": false }
-	// 	]
-	// },
 	{ "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
 	{ "keys": ["ctrl+alt+1"], "command": "focus_group", "args": { "group": 0 } },
 	{ "keys": ["ctrl+alt+2"], "command": "focus_group", "args": { "group": 1 } },
