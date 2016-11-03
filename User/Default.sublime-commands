@@ -1,4 +1,4 @@
 [
     { "caption": "Vintageous: Toggle", "command": "toggle_vintageous" },
-    { "caption": "Gutter: Toggle", "command": "toggle_gutter"}
+    { "caption": "Gutter: Toggle", "command": "toggle_setting", "args": {"setting": "gutter"} }
 ]
