@@ -1,4 +1,5 @@
 [
     { "caption": "Vintageous: Toggle", "command": "toggle_vintageous" },
-    { "caption": "Gutter: Toggle", "command": "toggle_setting", "args": {"setting": "gutter"} }
+    { "caption": "View: Toggle Gutter", "command": "toggle_setting", "args": {"setting": "gutter"} },
+    { "caption": "View: Toggle Line Numbers", "command": "toggle_setting", "args": {"setting": "line_numbers"} }
 ]
