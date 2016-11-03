@@ -1,25 +1,41 @@
 [
+	// Zoom the current pane
 	{ "keys": ["ctrl+k", "ctrl+z"], "command": "zoom_pane", "args": {"fraction": 0.7} },
+
+	// Toggle the status bar
 	{ "keys": ["alt+s"], "command": "toggle_status_bar" },
+
+	// Toggle the auto hard wrap plugin (vim-like option)
 	{ "keys": ["alt+space"], "command": "toggle_auto_wrap" },
+
+	// Remap keys again to solve key conflicts
 	{ "keys": ["ctrl+shift+u"], "command": "soft_redo" },
 	{ "keys": ["ctrl+u"], "command": "soft_undo" },
-	{ "keys": ["ctrl+alt+k"], "command": "select_lines", "args": {"forward": false} },
-	{ "keys": ["ctrl+alt+j"], "command": "select_lines", "args": {"forward": true} },
+
+	// Columns selection
+	{ "keys": ["alt+shift+k"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+shift+j"], "command": "select_lines", "args": {"forward": true} },
+
+	// Move to the end of subword
 	{ "keys": ["alt+l"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+
+	// Add a semicolon and go to the next line
 	{ "keys": ["alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/End_Of_Line_With_Semicolon.sublime-macro"} },
+
+	// Close all windows
 	{ "keys": ["ctrl+shift+w"], "command": "close_all" },
+
+	// Show the output panel
 	{ "keys" : ["ctrl+shift+b"], "command" : "show_panel" , "args" : {"panel": "output.exec"} },
+
+	// Kill the running process
 	{ "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
-	{ "keys": ["ctrl+enter"], "command": "insert", "args": {"characters": "\n"} },
-	{ "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+
+	// Compile the current markdown file and open it by the default browser
 	{
 	"keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}
 	},
-	{ "keys": ["ctrl+shift+."], "command": "erb", "context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
-		]
-	},
+
+	// Enter Vintageous normal mode
 	{ "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] }
 ]
