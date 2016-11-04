@@ -241,8 +241,6 @@
         "filepath",
         "authenticator"
     ],
-    "auto_complete_commit_on_tab": true,
-    "auto_complete_with_fields": true,
     "bold_folder_labels": true,
     "caret_style": "phase",
     "color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
