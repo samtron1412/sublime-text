@@ -9,6 +9,7 @@
 	{ "keys": ["alt+space"], "command": "toggle_auto_wrap" },
 
 	// Remap keys again to solve key conflicts
+	{ "keys": ["ctrl+shift+h"], "command": "replace_next" },
 	{ "keys": ["ctrl+shift+u"], "command": "soft_redo" },
 	{ "keys": ["ctrl+u"], "command": "soft_undo" },
 
