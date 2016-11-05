@@ -255,6 +255,7 @@
     "ignored_packages":
     [
         "Emmet",
+        "FuzzyFilePath",
         "Markdown",
         "Vintage"
     ],
