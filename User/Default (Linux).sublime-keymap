@@ -1,4 +1,7 @@
 [
+    // Cancel the current build process
+    { "keys": ["f7"], "command": "cancel_build" },
+
     // Goto Anything: #search_term
     { "keys": ["ctrl+,"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
 
