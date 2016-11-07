@@ -33,7 +33,7 @@
     { "keys": ["ctrl+shift+w"], "command": "close_all" },
 
     // Show the output panel
-    { "keys" : ["ctrl+shift+b"], "command" : "show_panel" , "args" : {"panel": "output.exec"} },
+    { "keys" : ["ctrl+shift+o"], "command" : "show_panel" , "args" : {"panel": "output.exec"} },
 
     // Kill the running process
     { "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
