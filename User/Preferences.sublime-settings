@@ -239,7 +239,8 @@
 		"viewport",
 		"workspaces",
 		"filepath",
-		"authenticator"
+		"authenticator",
+		"overriden"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
