@@ -1,4 +1,8 @@
 [
+    // Switch to the next/previous view
+    { "keys": ["alt+tab"], "command": "next_view" },
+    { "keys": ["alt+shift+tab"], "command": "prev_view" },
+
     // Cancel the current build process
     { "keys": ["f7"], "command": "cancel_build" },
 
