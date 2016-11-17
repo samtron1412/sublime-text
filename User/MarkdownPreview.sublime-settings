@@ -1,0 +1,7 @@
+{
+    "enable_mathjax": true,
+    "enable_highlight": true,
+    "enabled_extensions": "default",
+    "image_path_conversion": "relative",
+    "file_path_conversions": "relative",
+}
