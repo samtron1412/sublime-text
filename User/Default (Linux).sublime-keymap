@@ -27,8 +27,9 @@
     { "keys": ["alt+shift+k"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["alt+shift+j"], "command": "select_lines", "args": {"forward": true} },
 
-    // Move to the end of subword
-    { "keys": ["alt+l"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    // Move to the end of line
+    { "keys": ["alt+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+
 
     // Add a semicolon and go to the next line
     { "keys": ["alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/End_Of_Line_With_Semicolon.sublime-macro"} },
