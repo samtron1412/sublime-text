@@ -306,6 +306,7 @@
 	"line_numbers": false,
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
+	"margin": 0,
 	"match_brackets": false,
 	"rulers":
 	[
