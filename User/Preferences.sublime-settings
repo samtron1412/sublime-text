@@ -242,6 +242,8 @@
 		"authenticator",
 		"overriden"
 	],
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text",
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
