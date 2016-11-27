@@ -54,5 +54,11 @@
 		"Vintageous",
 		"WordCount",
 		"Wrap Plus"
+	],
+	"repositories":
+	[
+		"https://github.com/titoBouzout/WordCount",
+		"https://github.com/titoBouzout/BufferScroll",
+		"https://github.com/titoBouzout/EncodingHelper"
 	]
 }
