@@ -11,13 +11,11 @@
 		"AutoWrap",
 		"BoGo",
 		"BracketHighlighter",
-		"BufferScroll",
 		"ColorPicker",
 		"ConvertToUTF8",
 		"Dayle Rees Color Schemes",
 		"DocBlockr",
 		"Emmet",
-		"EncodingHelper",
 		"FindKeyConflicts",
 		"FuzzyFilePath",
 		"GitGutter",
@@ -52,13 +50,9 @@
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"Vintageous",
-		"WordCount",
 		"Wrap Plus"
 	],
 	"repositories":
 	[
-		"https://github.com/titoBouzout/WordCount",
-		"https://github.com/titoBouzout/BufferScroll",
-		"https://github.com/titoBouzout/EncodingHelper"
 	]
 }
