@@ -1,4 +1,5 @@
 {
+    "enable_autoreload": true,
     "enable_mathjax": true,
     "enable_highlight": true,
     "enabled_extensions": "default",
