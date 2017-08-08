@@ -11,3 +11,4 @@ Package Control.user-ca-bundle
 .SublimeREPLHistory/
 Color Highlighter/
 encoding_cache.json
+*.crt
