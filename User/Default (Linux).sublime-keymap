@@ -1,55 +1,154 @@
 [
     // Switch to the next/previous view
-    { "keys": ["ctrl+tab"], "command": "next_view" },
-    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    {
+        "keys": ["ctrl+tab"],
+        "command": "next_view"
+    },
+    {
+        "keys": ["ctrl+shift+tab"],
+        "command": "prev_view"
+    },
 
     // Cancel the current build process
-    { "keys": ["f7"], "command": "cancel_build" },
+    {
+        "keys": ["f7"],
+        "command": "cancel_build"
+    },
 
     // Goto Anything: #search_term
-    { "keys": ["ctrl+,"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
+    {
+        "keys": ["ctrl+,"],
+        "command": "show_overlay",
+        "args":
+        {
+            "overlay": "goto",
+            "text": "#"
+        }
+    },
 
     // Zoom the current pane
-    { "keys": ["ctrl+k", "ctrl+z"], "command": "zoom_pane", "args": {"fraction": 0.7} },
+    {
+        "keys": ["ctrl+k", "ctrl+z"],
+        "command": "zoom_pane",
+        "args":
+        {
+            "fraction": 0.7
+        }
+    },
 
     // Toggle the status bar
-    { "keys": ["alt+s"], "command": "toggle_status_bar" },
+    {
+        "keys": ["alt+s"],
+        "command": "toggle_status_bar"
+    },
 
     // Toggle the auto hard wrap plugin (vim-like option)
-    { "keys": ["alt+space"], "command": "toggle_auto_wrap" },
+    {
+        "keys": ["alt+space"],
+        "command": "toggle_auto_wrap"
+    },
 
     // Remap keys again to solve key conflicts
-    { "keys": ["ctrl+shift+h"], "command": "replace_next" },
-    { "keys": ["ctrl+shift+u"], "command": "soft_redo" },
-    { "keys": ["ctrl+u"], "command": "soft_undo" },
+    {
+        "keys": ["ctrl+shift+h"],
+        "command": "replace_next"
+    },
+    {
+        "keys": ["ctrl+shift+u"],
+        "command": "soft_redo"
+    },
+    {
+        "keys": ["ctrl+u"],
+        "command": "soft_undo"
+    },
 
     // Columns selection
-    { "keys": ["alt+shift+k"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["alt+shift+j"], "command": "select_lines", "args": {"forward": true} },
+    {
+        "keys": ["alt+shift+k"],
+        "command": "select_lines",
+        "args":
+        {
+            "forward": false
+        }
+    },
+    {
+        "keys": ["alt+shift+j"],
+        "command": "select_lines",
+        "args":
+        {
+            "forward": true
+        }
+    },
 
     // Move to the end of line
-    { "keys": ["alt+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    {
+        "keys": ["alt+l"],
+        "command": "move_to",
+        "args":
+        {
+            "to": "eol",
+            "extend": false
+        }
+    },
 
 
     // Add a semicolon and go to the next line
-    { "keys": ["alt+;"], "command": "run_macro_file", "args": {"file": "Packages/User/End_Of_Line_With_Semicolon.sublime-macro"} },
+    {
+        "keys": ["alt+;"],
+        "command": "run_macro_file",
+        "args":
+        {
+            "file": "Packages/User/End_Of_Line_With_Semicolon.sublime-macro"
+        }
+    },
 
     // Close all windows
-    { "keys": ["ctrl+shift+w"], "command": "close_all" },
+    {
+        "keys": ["ctrl+shift+w"],
+        "command": "close_all"
+    },
 
     // Show the output panel
-    { "keys" : ["ctrl+shift+o"], "command" : "show_panel" , "args" : {"panel": "output.exec"} },
+    {
+        "keys": ["ctrl+shift+o"],
+        "command": "show_panel" ,
+        "args":
+        {
+            "panel": "output.exec"
+        }
+    },
 
     // Kill the running process
-    { "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
+    {
+        "keys": ["ctrl+alt+b"],
+        "command": "exec",
+        "args":
+        {
+            "kill": true
+        }
+    },
 
     // Compile the current markdown file and open it by the default browser
     {
-    "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"}
+        "keys": ["alt+m"],
+        "command": "markdown_preview",
+        "args":
+        {
+            "target": "browser",
+            "parser":"markdown"
+        }
     },
 
     // Enter Vintageous normal mode
-    { "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+    {
+        "keys": ["j", "j"],
+        "command": "_enter_normal_mode",
+        "args":
+        {
+            "mode": "mode_insert"
+        },
+        "context": [{"key": "vi_insert_mode_aware"}]
+    },
 
     // Zoom/Unzoom current pane (toggle zoom)
     {
