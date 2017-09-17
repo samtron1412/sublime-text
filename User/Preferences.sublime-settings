@@ -383,11 +383,14 @@
 		"namespacing",
 		"versioning",
 		"refactorings"
+		"Bytecode",
+		"disassembler",
+		"installable"
 	],
 	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text",
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"dictionary": "Packages/User/English(US)_custom/English(American).dic",
@@ -461,7 +464,6 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
-	"spell_check": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
