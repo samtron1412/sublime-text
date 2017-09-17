@@ -3,6 +3,10 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases":
+	[
+		"PackageDev"
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -11,7 +15,7 @@
 		"AutoWrap",
 		"BoGo",
 		"BracketHighlighter",
-		"ColorPicker",
+		"Color Highlighter",
 		"ConvertToUTF8",
 		"Dayle Rees Color Schemes",
 		"DocBlockr",
@@ -19,7 +23,6 @@
 		"FindKeyConflicts",
 		"FuzzyFilePath",
 		"GitGutter",
-		"Gutter Color",
 		"HexViewer",
 		"HTML-CSS-JS Prettify",
 		"ImprovedSQL",
@@ -44,7 +47,11 @@
 		"SqlBeautifier",
 		"Sublime Bookmarks",
 		"SublimeCodeIntel",
+		"SublimeGDB",
 		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-cppcheck",
+		"SublimeLinter-cpplint",
 		"SublimeREPL",
 		"Sublimerge Pro",
 		"Theme - Soda",
