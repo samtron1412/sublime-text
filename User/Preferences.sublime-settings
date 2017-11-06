@@ -377,7 +377,12 @@
 		"butyric",
 		"lipoprotein",
 		"phospholipid",
-		"estradiol"
+		"estradiol",
+		"codebase",
+		"archeology",
+		"namespacing",
+		"versioning",
+		"refactorings"
 	],
 	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text",
 	"bold_folder_labels": true,
