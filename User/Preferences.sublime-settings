@@ -448,7 +448,8 @@
 		"maladaptive",
 		"hypochondriasis",
 		"Interactionist",
-		"identifiably"
+		"identifiably",
+		"programmatically"
 	],
 	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text",
 	"bold_folder_labels": true,
@@ -527,6 +528,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
+    "spell_check": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
