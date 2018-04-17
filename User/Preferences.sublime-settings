@@ -528,7 +528,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
-    "spell_check": true,
+	"spell_check": true,
 	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
