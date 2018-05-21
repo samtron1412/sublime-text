@@ -5,8 +5,6 @@
     {"keys": ["f7"], "command": "cancel_build"},
     // Goto Anything: #search_term
     {"keys": ["super+,"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
-    // Zoom the current pane
-    {"keys": ["super+k", "super+z"], "command": "zoom_pane", "args": {"fraction": 0.7 } },
     // Toggle the status bar
     {"keys": ["alt+s"], "command": "toggle_status_bar"},
     // Toggle the auto hard wrap plugin (vim-like option)
@@ -32,5 +30,5 @@
     // Enter Vintageous normal mode
     {"keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
     // Zoom/Unzoom current pane (toggle zoom)
-    {"keys": ["super+space"], "command": "toggle_zoom_pane", "args": {"fraction": 0.9 } }
+    {"keys": ["super+z"], "command": "toggle_zoom_pane", "args": {"fraction": 0.9 } }
 ]
